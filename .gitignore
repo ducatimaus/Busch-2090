@@ -1,3 +1,6 @@
+# Graphic source files
+*.afdesign
+
 # Mac bundle stuff
 *.dmg
 *.app
