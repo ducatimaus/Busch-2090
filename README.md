@@ -332,7 +332,15 @@ Lilly has added external pulldown resistors to the digital inputs so that the lo
 
 I also love how the documentation (IPad PDF manual) is much more modern than the computer - back in the 80s, it used to be the other way around :-) 
 
-#### Hardware Requirements
+#### PCB Version
+
+I am currently working on a SMD PCB version. So far, I have a prototype breadboard working. This version is basically a re-engineered version of the "LED&KEY" TM1638 module, and a shrimped Arduino Uno, i.e., an ATmega 328p with a 16 Mhz crystal. The final version will be a SMD PCB, since the TM1683 is only available in SOP-28 SMD packaging. In addition to the Uno R3 version, this variant will also feature a 24LC256 32 KByte EEPROM for PGM 2 / PGM 1 file storage; it has enough external EEPROM memory to hold 42 full memory dumps. Moreover, 2 CD4050BE bus drivers were added for the 4bit GPIOs of the Microtronic, 1 for the 4bit inputs, 1 for the 4bit outputs. 
+
+This is the breadboad prototype: 
+
+![2090 Breadboard Prototype](images/2090-breadboard.jpg)
+
+#### Hardware Requirements for the 2090 Uno R3 Version 
 
 You will need: 
 
